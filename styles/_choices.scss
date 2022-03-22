@@ -1,0 +1,6 @@
+.choices {
+    display: grid;
+    justify-content: center;
+    gap: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}

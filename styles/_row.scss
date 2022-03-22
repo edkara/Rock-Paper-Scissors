@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  .arrow {
+    margin-left: -8rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    span {
+      color: white;
+    }
+  }
+}

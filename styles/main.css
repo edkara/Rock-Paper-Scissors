@@ -1,0 +1,151 @@
+.button {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid white;
+  color: #c8e087;
+  cursor: pointer;
+  background: #95a472;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #646165;
+  color: #ddfcad;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  color: #ddfcad;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ddfcad;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #ddfcad;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #ddfcad;
+  font-weight: 200;
+}
+
+a {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  color: #ddfcad;
+  font-weight: 200;
+}
+
+span {
+  font-size: 3.5rem;
+  background-color: #95a472;
+  color: #ddfcad;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  display: inline-block;
+  margin: .1rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  text-align: center;
+  padding: 0;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.column:nth-child(odd) {
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+.column:nth-child(even) {
+  padding-right: 0.5rem;
+  padding-left: 0;
+}
+
+.choices {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.box p {
+  display: block;
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+
+.result {
+  margin-top: 5rem;
+  border-radius: 1rem;
+  color: #c8e087;
+  background: #95a472;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.result h2 {
+  margin-left: 7rem;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row .arrow {
+  margin-left: -8rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+}
+
+.row .arrow span {
+  color: white;
+}
+
+body {
+  background-color: #82846d;
+}
+/*# sourceMappingURL=main.css.map */

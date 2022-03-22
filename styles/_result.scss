@@ -1,0 +1,12 @@
+.result {
+  margin-top: 5rem;
+  border-radius: 1rem;
+  color: $color;
+  background: $background;
+  height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  h2 {
+      margin-left: 7rem;
+  }
+}
